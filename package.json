@@ -1,6 +1,6 @@
 {
   "name": "bioengine.brc.frontend",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Common frontend for BRC sites",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -38,6 +38,8 @@
     "@types/masonry-layout": "^4.2.1",
     "@types/node": "^12.0.2",
     "@types/twitter-for-web": "0.0.0",
+    "tslint": "^5.16.0",
+    "tslint-consistent-codestyle": "1.15.1",
     "typescript": "^3.4.5"
   }
 }
