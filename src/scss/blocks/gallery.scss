@@ -14,31 +14,14 @@
         box-sizing: border-box;
     }
 
-    .grid:after {
-        content: '';
-        display: block;
-        clear: both;
-    }
 
-    .grid-sizer,
-    .grid-item {
-        width: 30.333%;
-        margin:1.5%;
-        text-align: center;
-    }
+    .gallery-picture {
+        height: 100%;
 
-    @media (max-width: 575px) {
-        .grid-sizer,
-        .grid-item {
-            width: 100%;
-            margin: 0;
-            margin-bottom: 10px;
-        }
-    }
-    @media (min-width: 576px) and (max-width: 767px) {
-        .grid-sizer,
-        .grid-item {
-            width: 45%;
+        .view {
+            display: flex;
+            height: 100%;
+            align-items: center;
         }
     }
 }
