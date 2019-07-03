@@ -26,8 +26,8 @@ $(function () {
     $(tweets).each(function (t, tweet) {
 
         const id = $(tweet).data('tweet-id');
-        twttr.ready(() => {
-            twttr.widgets.createTweet(
+        twttr.ready(tw => {
+            tw.widgets.createTweet(
                 id, tweet,
                 {
                     conversation: 'all',    // or all
