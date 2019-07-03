@@ -1,6 +1,6 @@
 {
   "name": "bioengine.brc.frontend",
-  "version": "1.1.2",
+  "version": "1.1.3",
   "description": "Common frontend for BRC sites",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -18,11 +18,11 @@
   },
   "homepage": "https://github.com/BioWareRu/BioEngine.BRC.Frontend#readme",
   "dependencies": {
-    "@fortawesome/fontawesome-free": "^5.8.2",
-    "es6-promise": "^4.2.6",
+    "@fortawesome/fontawesome-free": "^5.9.0",
+    "es6-promise": "^4.2.8",
     "hammerjs": "^2.0.8",
     "jquery": "^3.4.1",
-    "mdbootstrap": "^4.8.1",
+    "mdbootstrap": "^4.8.3",
     "node-sass": "^4.12.0",
     "node-waves": "^0.7.6",
     "popper.js": "^1.15.0",
@@ -30,11 +30,11 @@
     "wow.js": "^1.2.2"
   },
   "devDependencies": {
-    "@types/jquery": "^3.3.29",
-    "@types/node": "^12.0.2",
-    "@types/twitter-for-web": "0.0.0",
-    "tslint": "^5.16.0",
+    "@types/jquery": "^3.3.30",
+    "@types/node": "^12.0.10",
+    "@types/twitter-for-web": "0.0.1",
+    "tslint": "^5.18.0",
     "tslint-consistent-codestyle": "1.15.1",
-    "typescript": "^3.4.5"
+    "typescript": "^3.5.2"
   }
 }
