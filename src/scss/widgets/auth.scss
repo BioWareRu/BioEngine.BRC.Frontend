@@ -1,9 +1,9 @@
 @import "../_variables";
 
-.auth {
-}
+.auth {}
 
-.auth__login, .auth__reg {
+.auth__login,
+.auth__reg {
     display: block;
     font-size: 16px;
     margin-bottom: 3px;
@@ -20,7 +20,7 @@
         margin-right: 10px;
         width: 15px;
         height: 17px;
-        background: url("'#{$brc-img-path}/auth__icons.png") 0 0 no-repeat;
+        background: url("#{$brc-img-path}/auth__icons.png") 0 0 no-repeat;
     }
 }
 
@@ -40,12 +40,15 @@
     float: left;
 }
 
-.auth__username, .auth__exit {
+.auth__username,
+.auth__exit {
     display: none
 }
 
 .auth_sign-in {
-    .auth__login, .auth__reg {
+
+    .auth__login,
+    .auth__reg {
         display: none;
     }
 
@@ -62,8 +65,7 @@
         display: block;
         word-break: break-all;
 
-        &:hover {
-        }
+        &:hover {}
 
         &:before {
             content: '';
@@ -89,8 +91,7 @@
         display: block;
         margin-top: 10px;
 
-        &:hover {
-        }
+        &:hover {}
 
         &:before {
             content: '';
