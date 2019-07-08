@@ -1,6 +1,5 @@
 {
   "rulesDirectory": [
-    "node_modules/codelyzer",
     "tslint-consistent-codestyle"
   ],
   "rules": {
@@ -116,13 +115,6 @@
       "check-separator",
       "check-type"
     ],
-    "no-output-on-prefix": true,
-    "no-input-rename": true,
-    "no-output-rename": true,
-    "use-life-cycle-interface": true,
-    "use-pipe-transform-interface": true,
-    "component-class-suffix": true,
-    "directive-class-suffix": true,
     "no-as-type-assertion": true,
     "no-accessor-recursion": true,
     "no-collapsible-if": true,
