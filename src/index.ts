@@ -8,6 +8,7 @@ import WOW = require('wow.js/dist/wow');
 new WOW().init();
 
 require('./blocks/gallery');
+require('./blocks/picture');
 require('./blocks/youtube');
 require('./blocks/twitter');
 require('./blocks/twitch');
