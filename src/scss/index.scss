@@ -202,9 +202,9 @@ $color in $basic-mdb-colors {
 @import "node_modules/mdbootstrap/scss/free/footers";
 
 
+$fa-font-display: swap;
 
 @import 'node_modules/@fortawesome/fontawesome-free/scss/fontawesome';
-@import 'node_modules/@fortawesome/fontawesome-free/scss/regular';
 @import 'node_modules/@fortawesome/fontawesome-free/scss/solid';
 @import 'node_modules/@fortawesome/fontawesome-free/scss/brands';
 @import "post";
