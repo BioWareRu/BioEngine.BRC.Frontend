@@ -5,4 +5,3 @@ require('mdbootstrap/js/modules/waves');
 
 require('./blocks/gallery');
 require('./blocks/picture');
-require('./blocks/twitter');
