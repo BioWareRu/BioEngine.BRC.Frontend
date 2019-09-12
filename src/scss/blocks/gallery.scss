@@ -1,27 +1,34 @@
 .block-galleryblock {
-    .full {
-        margin-left: -1.25rem;
-        margin-right: -1.25rem;
 
-        .row {
-            div {
-                text-align: center;
-            }
-        }
-    }
+    margin-left: -1.25rem;
+    margin-right: -1.25rem;
 
-    * {
-        box-sizing: border-box;
+    .carousel-thumbnails .carousel-indicators img {
+        max-width: 100px;
+        height: 50px;
+        overflow: hidden;
+        display: block;
     }
 
 
-    .gallery-picture {
-        height: 100%;
+    .carousel-thumbnails .carousel-indicators li {
+        height: auto;
+        max-width: 100px;
+        width: 100px;
+        border: none;
+        box-shadow: 1px 3px 5px 0px rgba(0, 0, 0, 0.75);
+        border: 4px solid #fff;
+        text-indent: 0;
+        color: black;
 
-        .view {
-            display: flex;
-            height: 100%;
-            align-items: center;
+        div {
+            text-align: center;
         }
+    }
+
+    .carousel-control-next-icon,
+    .carousel-control-prev-icon {
+        width: 30px;
+        height: 30px;
     }
 }
