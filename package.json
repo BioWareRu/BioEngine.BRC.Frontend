@@ -5,7 +5,7 @@
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
-    "build": "tsc -p ./ --outDir dist/ && node-sass src/scss/index.scss > dist/index.css"
+    "build": "tsc -p ./ --outDir dist/ && node-sass --importer=node_modules/node-sass-tilde-importer src/scss/index.scss > dist/index.css"
   },
   "repository": {
     "type": "git",
@@ -15,6 +15,11 @@
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/BioWareRu/BioEngine.BRC.Frontend/issues"
+  },
+  "sass": {
+    "includePaths": [
+      "./node_modules"
+    ]
   },
   "homepage": "https://github.com/BioWareRu/BioEngine.BRC.Frontend#readme",
   "dependencies": {
@@ -32,6 +37,7 @@
   },
   "devDependencies": {
     "@types/node": "^12.7.5",
+    "node-sass-tilde-importer": "^1.0.2",
     "tslint": "^5.20.0",
     "tslint-consistent-codestyle": "1.15.1",
     "typescript": "^3.6.3"

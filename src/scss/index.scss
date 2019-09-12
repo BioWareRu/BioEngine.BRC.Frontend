@@ -4,17 +4,17 @@
 @import "~mdbootstrap/css/bootstrap.min.css";
 
 // Bootstrap
-@import "node_modules/mdbootstrap/scss/core/bootstrap/functions";
-@import "node_modules/mdbootstrap/scss/core/bootstrap/variables";
+@import "~mdbootstrap/scss/core/bootstrap/functions";
+@import "~mdbootstrap/scss/core/bootstrap/variables";
 
 // CORE
-@import "node_modules/mdbootstrap/scss/core/mixins";
+@import "~mdbootstrap/scss/core/mixins";
 // Your custom variables
-@import "node_modules/mdbootstrap/scss/custom-variables";
-@import "node_modules/mdbootstrap/scss/core/colors";
-@import "node_modules/mdbootstrap/scss/core/variables";
-@import "node_modules/mdbootstrap/scss/core/global";
-@import "node_modules/mdbootstrap/scss/core/helpers";
+@import "~mdbootstrap/scss/custom-variables";
+@import "~mdbootstrap/scss/core/colors";
+@import "~mdbootstrap/scss/core/variables";
+@import "~mdbootstrap/scss/core/global";
+@import "~mdbootstrap/scss/core/helpers";
 
 
 // Typography
@@ -127,7 +127,6 @@ $val in $grid-breakpoints {
     &:before,
     &:after {
         content: "";
-        height: 1.5px;
         flex: 1;
         height: $divider-height;
         background: #c6c6c6;
@@ -181,32 +180,32 @@ $color in $basic-mdb-colors {
 }
 
 .font-small {
-    font-size: $font-small;
+    font-size: $font-size-small;
 }
 
 
 
-@import "node_modules/mdbootstrap/scss/core/masks";
-@import "node_modules/mdbootstrap/scss/core/waves";
+@import "~mdbootstrap/scss/core/masks";
+@import "~mdbootstrap/scss/core/waves";
 
 // FREE
-@import "node_modules/mdbootstrap/scss/free/animations-basic";
-@import "node_modules/mdbootstrap/scss/free/buttons";
-@import "node_modules/mdbootstrap/scss/free/cards";
-@import "node_modules/mdbootstrap/scss/free/dropdowns";
-@import "node_modules/mdbootstrap/scss/free/input-group";
-@import "node_modules/mdbootstrap/scss/free/navbars";
-@import "node_modules/mdbootstrap/scss/free/pagination";
-@import "node_modules/mdbootstrap/scss/free/forms";
-@import "node_modules/mdbootstrap/scss/free/msc";
-@import "node_modules/mdbootstrap/scss/free/footers";
+@import "~mdbootstrap/scss/free/animations-basic";
+@import "~mdbootstrap/scss/free/buttons";
+@import "~mdbootstrap/scss/free/cards";
+@import "~mdbootstrap/scss/free/dropdowns";
+@import "~mdbootstrap/scss/free/input-group";
+@import "~mdbootstrap/scss/free/navbars";
+@import "~mdbootstrap/scss/free/pagination";
+@import "~mdbootstrap/scss/free/forms";
+@import "~mdbootstrap/scss/free/msc";
+@import "~mdbootstrap/scss/free/footers";
 
 
 $fa-font-display: swap;
 
-@import 'node_modules/@fortawesome/fontawesome-free/scss/fontawesome';
-@import 'node_modules/@fortawesome/fontawesome-free/scss/solid';
-@import 'node_modules/@fortawesome/fontawesome-free/scss/brands';
+@import '~@fortawesome/fontawesome-free/scss/fontawesome';
+@import '~@fortawesome/fontawesome-free/scss/solid';
+@import '~@fortawesome/fontawesome-free/scss/brands';
 @import "post";
 @import "menu";
 @import "sections";
