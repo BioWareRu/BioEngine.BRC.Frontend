@@ -1,34 +1,57 @@
 .block-galleryblock {
 
-    margin-left: -1.25rem;
-    margin-right: -1.25rem;
+  margin-left: -1.25rem;
+  margin-right: -1.25rem;
 
-    .carousel-thumbnails .carousel-indicators img {
-        max-width: 100px;
-        height: 50px;
-        overflow: hidden;
-        display: block;
-    }
+  .carousel-thumbnails .carousel-item {
+    background: black no-repeat center;
+    background-size: contain;
+  }
 
+  .carousel-inner .carousel-item .carousel-item-inner {
+    width: 100%;
+    padding-top: 70%;
+    display: block;
+  }
 
-    .carousel-thumbnails .carousel-indicators li {
-        height: auto;
-        max-width: 100px;
-        width: 100px;
-        border: none;
-        box-shadow: 1px 3px 5px 0px rgba(0, 0, 0, 0.75);
-        border: 4px solid #fff;
-        text-indent: 0;
-        color: black;
+  .carousel-thumbnails .carousel-indicators img {
+    max-width: 100px;
+    height: 50px;
+    overflow: hidden;
+    display: block;
+  }
 
-        div {
-            text-align: center;
-        }
-    }
+  .carousel-thumbnails .carousel-indicators {
+    position: relative;
+    justify-content: center;
+    margin: 0;
+    padding: 20px 0;
+    flex-wrap: wrap;
+    background: black;
+  }
 
-    .carousel-control-next-icon,
-    .carousel-control-prev-icon {
-        width: 30px;
-        height: 30px;
-    }
+  .carousel-thumbnails .carousel-indicators li {
+    height: 80px;
+    width: calc(14% - 6px);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: black;
+    opacity: 0.8;
+  }
+
+  .carousel-thumbnails .carousel-indicators li.active {
+    opacity: 1;
+    filter: brightness(1.2);
+  }
+
+  .carousel-thumbnails .carousel-indicators li:hover {
+    filter: brightness(1.5);
+  }
+
+  .carousel-control-next-icon,
+  .carousel-control-prev-icon {
+    width: 30px;
+    height: 30px;
+  }
 }
