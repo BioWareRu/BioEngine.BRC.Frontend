@@ -4,17 +4,17 @@
 @import "~mdbootstrap/css/bootstrap.min.css";
 
 // Bootstrap
-@import "~mdbootstrap/scss/core/bootstrap/functions";
-@import "~mdbootstrap/scss/core/bootstrap/variables";
+@import "~mdbootstrap/scss/core/bootstrap/_functions";
+@import "~mdbootstrap/scss/core/bootstrap/_variables";
 
 // CORE
-@import "~mdbootstrap/scss/core/mixins";
+@import "~mdbootstrap/scss/core/_mixins";
 // Your custom variables
-@import "~mdbootstrap/scss/custom-variables";
-@import "~mdbootstrap/scss/core/colors";
-@import "~mdbootstrap/scss/core/variables";
-@import "~mdbootstrap/scss/core/global";
-@import "~mdbootstrap/scss/core/helpers";
+@import "~mdbootstrap/scss/_custom-variables";
+@import "~mdbootstrap/scss/core/_colors";
+@import "~mdbootstrap/scss/core/_variables";
+@import "~mdbootstrap/scss/core/_global";
+@import "~mdbootstrap/scss/core/_helpers";
 
 
 // Typography
@@ -185,20 +185,20 @@ $color in $basic-mdb-colors {
 
 
 
-@import "~mdbootstrap/scss/core/masks";
-@import "~mdbootstrap/scss/core/waves";
+@import "~mdbootstrap/scss/core/_masks";
+@import "~mdbootstrap/scss/core/_waves";
 
 // FREE
-@import "~mdbootstrap/scss/free/animations-basic";
-@import "~mdbootstrap/scss/free/buttons";
-@import "~mdbootstrap/scss/free/cards";
-@import "~mdbootstrap/scss/free/dropdowns";
-@import "~mdbootstrap/scss/free/input-group";
-@import "~mdbootstrap/scss/free/navbars";
-@import "~mdbootstrap/scss/free/pagination";
-@import "~mdbootstrap/scss/free/forms";
-@import "~mdbootstrap/scss/free/msc";
-@import "~mdbootstrap/scss/free/footers";
+@import "~mdbootstrap/scss/free/_animations-basic";
+@import "~mdbootstrap/scss/free/_buttons";
+@import "~mdbootstrap/scss/free/_cards";
+@import "~mdbootstrap/scss/free/_dropdowns";
+@import "~mdbootstrap/scss/free/_input-group";
+@import "~mdbootstrap/scss/free/_navbars";
+@import "~mdbootstrap/scss/free/_pagination";
+@import "~mdbootstrap/scss/free/_forms";
+@import "~mdbootstrap/scss/free/_msc";
+@import "~mdbootstrap/scss/free/_footers";
 
 
 $fa-font-display: swap;
