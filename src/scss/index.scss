@@ -144,11 +144,11 @@ $val in $grid-breakpoints {
 // Blockquote
 .blockquote {
     padding: $blockquote-padding-y $blockquote-padding-x;
-    border-left: .25rem solid #eceeef;
+    border-left: .25rem solid $link-color;
 
     &.text-right {
         border-left: none;
-        border-right: .25rem solid #eceeef;
+        border-right: .25rem solid $link-color;
     }
 
     .bq-title {
@@ -160,6 +160,7 @@ $val in $grid-breakpoints {
     p {
         padding: $blockquote-p-padding-y 0;
         font-size: $blockquote-p-font-size;
+        margin-bottom: 0.5em;
     }
 }
 

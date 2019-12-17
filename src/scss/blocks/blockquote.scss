@@ -1,17 +1,32 @@
 .block-quoteblock {
-    blockquote {
+  position: relative;
 
-        p,
-        li,
-        div {
-            font-size: 1rem;
-            font-style: italic;
-            padding: 0;
-        }
+  blockquote {
+    background-color: #eceeefab;
 
-        .author {
-            text-align: right;
-            font-size: 1rem;
-        }
+    p,
+    li,
+    div {
+      font-size: 1.2rem;
+      font-style: italic;
+      padding: 0;
     }
+
+    .author {
+      cite {
+        font-style: normal;
+      }
+    }
+  }
+
+  .picture {
+    position: absolute;
+    right: -10px;
+    top: -10px;
+
+    img {
+      width: 50px;
+      border-radius: 25px;
+    }
+  }
 }
