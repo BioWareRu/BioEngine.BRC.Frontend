@@ -1,6 +1,6 @@
 {
   "name": "bioengine.brc.frontend",
-  "version": "1.5.1",
+  "version": "1.5.3",
   "description": "Common frontend for BRC sites",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
