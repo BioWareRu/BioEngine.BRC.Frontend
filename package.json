@@ -30,7 +30,7 @@
     "jquery": "^3.5.1",
     "lazysizes": "^5.2.2",
     "mdbootstrap": "^4.19.1",
-    "node-sass": "^4.14.1",
+    "node-sass": "^6.0.1",
     "node-waves": "^0.7.6",
     "popper.js": "^1.16.1",
     "underscore": "^1.10.2"
